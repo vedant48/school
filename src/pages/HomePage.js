@@ -1,44 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import News from '../components/News'
 import Event from '../components/Event';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+// import { Carousel } from 'react-responsive-carousel';
+// import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function HomePage() {
 
   return (
     <>
-      {/* Carousel */}
-      <section style={{"zIndex" : "-1"}} className="carousel">
-        <Carousel
-          autoPlay={true}
-          infiniteLoop={true}
-          showArrows={true}
-          showStatus={false}
-          showThumbs={false}
-          interval={3000}
-        >
-          <div>
-            <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" 
-            style={{ objectFit: 'cover', height: '400px', width: '100%' }}
-            alt="Image 1" />
-            <p className="legend">Image 1</p>
-          </div>
-          <div>
-            <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" 
-            style={{ objectFit: 'cover', height: '400px', width: '100%' }}
-            alt="Image 2" />
-            <p className="legend">Image 2</p>
-          </div>
-          <div>
-            <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" 
-            style={{ objectFit: 'cover', height: '400px', width: '100%' }}
-            alt="Image 3" />
-            <p className="legend">Image 3</p>
-          </div>
-          {/* Add more images here */}
-        </Carousel>
-      </section>
+      
 
       {/* About Institute section */}
       <section className="bg-gray-100 py-12">
